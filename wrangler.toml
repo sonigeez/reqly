@@ -1,0 +1,16 @@
+name = "test"
+pages_build_output_dir = "./dist"
+
+compatibility_date = "2024-10-09"
+compatibility_flags = [ "nodejs_compat" ]
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "test-bucket"
+
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "db_name"
+database_id = ""
+migrations_dir = "./drizzle"
